@@ -7,12 +7,13 @@
 > WPF приложение с Entity Framework Core, поддерживающее БД SQLite.  
 > Реализовано на паттерне Dependency Injection и архитектуре MVVM.
 
-</div>
 
 ![.NET](https://img.shields.io/badge/.NET-9.0-blue)
 ![WPF](https://img.shields.io/badge/UI-WPF-purple)
 ![MVVM + DI](https://img.shields.io/badge/Architecture-MVVM%20%2B%20DI-green)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
+
+</div>
 
 ---
 
