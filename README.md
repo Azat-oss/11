@@ -114,4 +114,15 @@ WPF-приложение для объективного сравнения пр
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/keshkaQ/CommandProjectPV-425.git
+2. Откройте решение CommandProjectPV-425.sln в Visual Studio.
+3. Восстановите пакеты:
+```bash
+   dotnet restore
+4. Скомпилируйте и запустите:
+```bash
+   dotnet run --project CommandProjectPV-425
+5. База данных benchmark.db будет автоматически создана в папке:
+```bash
+   \bin\Release\net9.0-windows\Data\
+
 
