@@ -36,13 +36,32 @@ WPF-приложение для объективного сравнения пр
 
 ## 🗃 Структура проекта
 CommandProjectPV-425/
-├── Helpers/ # JsonHelper, SystemInfoProvider
-├── Interfaces/ # IBenchmarkService, IChartService, IDataService
-├── Models/ # BenchmarkResult.cs, AppDbContext.cs
-├── Services/ # BenchmarkService.cs, ChartService.cs, DataService.cs
-├── Tests/ # Бенчмарки: FindPrimeNumbers.cs и др.
-├── ViewModels/ # MainViewModel.cs, ChartViewModel.cs
-├── Views/ # MainWindow.xaml, ChartView.xaml
-├── App.xaml # Точка входа
-├── App.xaml.cs # Настройка DI и запуск главного окна
-└── bin/Release/net9.0-windows/Data/benchmark.db ← БД создаётся автоматически
+├── Helpers/
+│   └── Вспомогательные классы (JsonHelper, SystemInfoProvider)
+├── Interfaces/
+│   ├── IBenchmarkService.cs
+│   ├── IChartService.cs
+│   └── IDataService.cs
+├── Models/
+│   ├── BenchmarkResult.cs
+│   └── AppDbContext.cs
+├── Services/
+│   ├── BenchmarkService.cs
+│   ├── ChartService.cs
+│   └── DataService.cs
+├── Tests/
+│   ├── CountAboveAverage.cs
+│   ├── DivisibleThreeOrFive.cs
+│   ├── FindPrimeNumbers.cs
+│   ├── MaxFrequencyOfElements.cs
+│   └── MaximumOfNonExtremeElements.cs
+├── ViewModels/
+│   ├── MainViewModel.cs
+│   └── ChartViewModel.cs
+├── Views/
+│   ├── MainWindow.xaml
+│   ├── ChartView.xaml
+│   └── ResultRowTemplate.xaml
+├── App.xaml
+├── App.xaml.cs
+└── bin/Release/net9.0-windows/Data/benchmark.db ← автоматически создаётся при первом запуске
