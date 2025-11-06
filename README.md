@@ -198,6 +198,24 @@ WPF-приложение для объективного сравнения пр
 
 ### 📊 Структура таблицы BenchmarkResults
 
+
+5. База данных benchmark.db будет автоматически создана в папке:
+   ```bash
+   CREATE TABLE BenchmarkResults (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    TaskName TEXT NOT NULL,
+    MethodName TEXT NOT NULL,
+    Size INTEGER NOT NULL,
+    MeanTimeMs REAL NOT NULL,
+    StdDevMs REAL,
+    Ratio REAL,
+    Date DATETIME NOT NULL,
+    Processor TEXT,
+    Cores INTEGER,
+    OS TEXT,
+    ResultJson TEXT  -- Полная сериализация результата BenchmarkDotNet
+);
+
 ---
 
 ## 🧩 Архитектура и технологии
