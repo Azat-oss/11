@@ -199,6 +199,7 @@ WPF-приложение для объективного сравнения пр
 ### 📊 Структура таблицы BenchmarkResults
 
 
+-Структура:
    ```bash
    CREATE TABLE BenchmarkResults (
     Id INTEGER PRIMARY KEY AUTOINCREMENT,
