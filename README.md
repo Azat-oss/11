@@ -216,8 +216,6 @@ WPF-приложение для объективного сравнения пр
     ResultJson TEXT  -- Полная сериализация результата BenchmarkDotNet
 );
 
-2. Структура записи из БД в файл формата:
-json[  {    "TaskName": "Find Prime Numbers",    "MethodName": "Tasks Run",    "Size": 1000000,    "MeanTimeMs": 11.72,    "Ratio": 2.37,    "Date": "2025-05-11T19:32:00Z",    "Processor": "Intel64 Family 6 Model 140 Stepping 1, 8",    "Cores": 8,    "OS": "Microsoft Windows 10.0.2"  }]
 
 
 ---
