@@ -84,3 +84,17 @@ WPF-приложение для объективного сравнения пр
 ---
 
 ## 🗃 Структура проекта
+
+
+| Папка / Файл                     | Описание                                                                 |
+|----------------------------------|--------------------------------------------------------------------------|
+| `Helpers/`                       | Вспомогательные утилиты (`JsonHelper`, `SystemInfoProvider`)             |
+| `Interfaces/`                    | Интерфейсы сервисов: `IBenchmarkService`, `IChartService`, `IDataService` |
+| `Models/`                        | Модели данных: `BenchmarkResult.cs`, `AppDbContext.cs`                   |
+| `Services/`                      | Реализации сервисов: `BenchmarkService.cs`, `ChartService.cs`, `DataService.cs` |
+| `Tests/`                         | Классы бенчмарков:<br>`CountAboveAverage.cs`<br>`DivisibleThreeOrFive.cs`<br>`FindPrimeNumbers.cs`<br>`MaxFrequencyOfElements.cs`<br>`MaximumOfNonExtremeElements.cs` |
+| `ViewModels/`                    | `MainViewModel.cs`, `ChartViewModel.cs`                                  |
+| `Views/`                         | `MainWindow.xaml`, `ChartView.xaml`, `ResultRowTemplate.xaml`            |
+| `App.xaml`                       | Точка входа WPF-приложения                                               |
+| `App.xaml.cs`                    | Настройка DI и запуск главного окна                                      |
+| `bin/Release/net9.0-windows/Data/benchmark.db` | Файл базы данных SQLite (создаётся автоматически при первом запуске) |
