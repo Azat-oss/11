@@ -115,6 +115,7 @@ WPF-приложение для объективного сравнения пр
    ```bash
    git clone https://github.com/keshkaQ/CommandProjectPV-425.git
 2. Откройте решение CommandProjectPV-425.sln в Visual Studio.
+
 3. Восстановите пакеты:
    ```bash
    dotnet restore
